@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../../assets/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+.font_color {
+    color: #44475b;
+}
+
+.heroHeading {
+    color: #44475b;
+    font-family: "Roboto";
+    font-size: 90px;
+    line-height: 96px;
+    text-align: center;
+}
+
+.heroSubheading {
+    color: #7c7e8c;
+    font-family: "Roboto";
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    line-height: 180%;
+    text-align: center;
+}
+
+.button {
+    /* background-color: #00d09c; */
+    background-color: lightskyblue;
+    color: #FFF;
+    border: none;
+    padding: 12px 45px;
+}
+
+.button:hover {
+    background-color: #66e3c4;
+    transition: all ease-out 0.2s;
+}
+
+.closeIcon {
+    position: absolute !important;
+    top: 0px;
+    right: 0px;
+}
+
+.div_center {
+    width: fit-content;
+    margin: auto;
+}
+
+
+
+
+
+/* ANIMATION */
+/* .modalGrid1_bottomdash {
+    margin-top: 222px !important;
+    margin-left: 1px;
+    height: 8px;
+    width: 44px;
+    background: #fff;
+    animation: dash 2.5s ease-in-out infinite;
+}
+
+
+
+@keyframes dash {
+    0% {
+        width: 1px;
+    }
+
+    40% {
+        width: 44px;
+    }
+
+    60% {
+        width: 44px;
+    }
+
+    100% {
+        width: 1px;
+    }
+} */
+
+/* .modalGrid1_bottomtext {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 32px;
+    letter-spacing: 0.15px;
+    margin-top: 15px;
+    font-family: "Roboto" !important;
+
+} */
+
+/* .modalGrid1_bottomtext::before {
+    content: "";
+    animation: text 10s linear infinite;
+
+} */
+
+/* */
+/* 
+@keyframes text {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        content: "Stocks";
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    40% {
+        content: "EPF's";
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    70% {
+        content: "SGB's";
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        content: "Mutual Fund";
+    }
+} */
+
+
+
+
+@media (max-width: 768px) {
+    
+}
+
+
+@media (max-width: 425px) {
+   
+}
+
+@media (max-width: 320px) {
+   
+.googleLogo{
+    height: 0.8rem;
+}
+}
